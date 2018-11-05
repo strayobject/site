@@ -41,7 +41,7 @@
                                 </p>
                             </div>
                             <div class="card-footer">
-                                <a href="http://ics.strayobject.co.uk" class="btn btn-light">View</a>
+                                <a href="https://ics.strayobject.co.uk" class="btn btn-light">View</a>
                                 <a href="https://github.com/strayobject/icstrans" class="btn btn-light">GitHub</a>
                             </div>
                         </div>
@@ -144,10 +144,12 @@
             </main>
             <footer class="mastfoot mt-auto">
                 <div class="inner">
-                    <p>
-                        Copyright &copy; 2018-2019 Strayobject
-                    </p>
                     <p class="small">
+                        Copyright &copy; 2018-2019 Strayobject
+                        <br/>
+                        We use cookies to count visitors, we don't share the data, we host the platform.
+                        We use <a href="https://matomo.org/">Matomo (Piwik)</a>.
+                        <br/>
                         Original template by <a href="https://twitter.com/mdo">@mdo</a>.
                     </p>
                 </div>
@@ -155,6 +157,22 @@
         </div>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="vendor/bootstrap-4.1.2-dist/js/bootstrap.min.js"></script>
+        <!-- Piwik -->
+        <script type="text/javascript">
+            var _paq = _paq || [];
+            /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+            _paq.push(['trackPageView']);
+            _paq.push(['enableLinkTracking']);
+            (function() {
+                var u="//stats.plainmotif.co.uk/";
+                _paq.push(['setTrackerUrl', u+'piwik.php']);
+                _paq.push(['setSiteId', '2']);
+                var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+                g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+            })();
+        </script>
+        <noscript><p><img src="//stats.plainmotif.co.uk/piwik.php?idsite=2&rec=1" style="border:0;" alt="" /></p></noscript>
+        <!-- End Piwik Code -->
     </body>
 </html>
 
